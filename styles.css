@@ -1,0 +1,35 @@
+.card {
+  height: 20rem;
+  width: 15rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 46%;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-desc {
+  list-style: none;
+  box-sizing: border-box;
+  transform: translate(1rem, 2rem);
+}
+
+.card-desc p {
+  font-size: 1.1rem;
+}
+
+.card-desc li {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+
+.card-wrapper {
+  margin: 3rem auto;
+}
